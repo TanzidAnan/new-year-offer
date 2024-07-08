@@ -7,6 +7,7 @@
 
 body {
     font-family: "Merriweather", serif;
+    font-weight: 700;
 }
 
 .header-container {
@@ -16,7 +17,7 @@ body {
     /* border: 5px solid rebeccapurple; */
     min-height: 600px;
     margin-top: 20px;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     background-image: url(/images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -49,4 +50,52 @@ h1 {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* secdio section container */
+.secdion-section-content {
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px;
+
+    border: 2px solid red;
+}
+
+.secdion-section-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secdion-section-con h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.secdion-section-con p {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.secdion-section-con h3 {
+    color: rgb(7, 2, 17);
+    margin-top: 15px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.img-container {
+    margin-top: 20px;
+    width: 804px;
+    height: 500px;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
 }
