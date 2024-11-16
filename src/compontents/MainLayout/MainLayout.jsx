@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import Navber from "../Navber/Navber";
 
 const MainLayout = () => {
     return (
         <div>
-            I am main layout
+            <Navber></Navber>
             <Outlet></Outlet>
         </div>
     );
