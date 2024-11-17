@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 const ServiceCard = ({ service }) => {
     const {image,treatment_description,treatment_name,cost} =service
@@ -16,10 +17,9 @@ const ServiceCard = ({ service }) => {
                         {treatment_name}
                         <div className="badge badge-secondary">Price:{cost}</div>
                     </h2>
-                    <p>{treatment_description.slice(0,100)} <a className="text-red-600" href="">reed more</a></p>
+                    <p title={treatment_description}>{treatment_description.slice(0,100)} </p>
                     <div className="card-actions justify-end">
-                        <div className="badge badge-outline">Fashion</div>
-                        <div className="badge badge-outline">Products</div>
+                        <div className="badge badge-outline">Chack Out</div>
                     </div>
                 </div>
             </div>
