@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "john doe",
+      "img": "https://i.ibb.co.com/V3jGqP1/images-6.jpg",
+      "review": "Excellent service and friendly staff. Highly recommended!"
+    },
+    {
+      "id": 2,
+      "name": "jane smith",
+      "img": "https://i.ibb.co.com/ChTpd0x/images-7.jpg",
+      "review": "Had a great experience! The team was professional and efficient."
+    },
+    {
+      "id": 3,
+      "name": "emma brown",
+      "img": "https://i.ibb.co.com/cwgy6bq/images-8.jpg",
+      "review": "Quick and painless process. I am very happy with the results."
+    },
+    {
+      "id": 4,
+      "name": "liam wilson",
+      "img": "https://i.ibb.co.com/ZTrJ9Gz/images-9.jpg",
+      "review": "Affordable prices and excellent quality of care. Will visit again!"
+    },
+    {
+      "id": 5,
+      "name": "olivia taylor",
+      "img": "https://i.ibb.co.com/xG3VpYR/images-11.jpg",
+      "review": "The staff went above and beyond to ensure I was comfortable."
+    },
+    {
+      "id": 6,
+      "name": "noah davis",
+      "img": "https://i.ibb.co.com/V3jGqP1/images-6.jpg",
+      "review": "Highly skilled professionals with a caring attitude. Thank you!"
+    }
+  ]
+  
