@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../compontents/MainLayout/MainLayout";
 import Home from "../compontents/Home/Home";
-import About from "../compontents/About/About";
 import Profile from "../compontents/Profile/Profile";
 import AllTreatment from "../compontents/AllTreatment/AllTreatment";
+import MYApperment from "../compontents/MYApperment/MYApperment";
 
 const router =createBrowserRouter([
     {
@@ -12,15 +12,20 @@ const router =createBrowserRouter([
         children:[
             {
                 path:'/',
-                element:<Home></Home>
+                element:<Home></Home>,
+                loader:() => fetch('/service.json')
             },
             {
-                path:'/AllTreatment',
+                path:'/allTreatment',
                 element:<AllTreatment></AllTreatment>
             },
             {
                 path:'/profile',
                 element:<Profile></Profile>
+            },
+            {
+                path:'/myApperment',
+                element:<MYApperment></MYApperment>
             }
         ]
     }

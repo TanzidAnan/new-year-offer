@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "treatment_name": "dental cleaning",
+      "treatment_description": "Professional cleaning to remove plaque and tartar.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/xGCWCnM/Dental-Cleaning-300x244.webp",
+      "cost": 50
+    },
+    {
+      "id": 2,
+      "treatment_name": "teeth whitening",
+      "treatment_description": "A procedure to lighten and brighten teeth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/2KJvcqG/laser-teeth-whitening-for-surface-and-deeper-teeth-stains.jpg",
+      "cost": 100
+    },
+    {
+      "id": 3,
+      "treatment_name": "cavity filling",
+      "treatment_description": "Filling cavities to restore damaged teeth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/VT6SGbX/images-1.jpg",
+      "cost": 75
+    },
+    {
+      "id": 4,
+      "treatment_name": "root canal",
+      "treatment_description": "Treatment to save a severely decayed or infected tooth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/9h8JLk1/when-do-you-need-a-root-canal-signs-and-symptoms-2000x1124.jpg",
+      "cost": 200
+    },
+    {
+      "id": 5,
+      "treatment_name": "orthodontics",
+      "treatment_description": "Braces or aligners to straighten teeth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/Lg5RC1z/braces-orthodantics-page-pic.webp",
+      "cost": 500
+    },
+    {
+      "id": 6,
+      "treatment_name": "dental implants",
+      "treatment_description": "Replacement of missing teeth with artificial implants.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/NFv6S63/dental-implants-1920w.webp",
+      "cost": 1000
+    },
+    {
+      "id": 7,
+      "treatment_name": "gum surgery",
+      "treatment_description": "Surgical treatment for severe gum disease.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/7WxQj51/images-2.jpg",
+      "cost": 300
+    },
+    {
+      "id": 8,
+      "treatment_name": "wisdom tooth extraction",
+      "treatment_description": "Removal of impacted or problematic wisdom teeth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/bBS95dm/images-3.jpg",
+      "cost": 150
+    },
+    {
+      "id": 9,
+      "treatment_name": "denture fitting",
+      "treatment_description": "Custom-made removable replacements for missing teeth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/pJyZZ2K/Adobe-Stock-281703203-1596479102-86250.jpg",
+      "cost": 400
+    },
+    {
+      "id": 10,
+      "treatment_name": "dental crowns",
+      "treatment_description": "Caps to restore and protect damaged teeth.Dental cleaning involves the removal of plaque, tartar, and stains from teeth surfaces to improve oral hygiene. This routine procedure helps prevent cavities, gum diseases, and other dental issues. Performed by a dental hygienist, it also includes polishing to restore a smooth tooth surface",
+      "image": "https://i.ibb.co.com/26rFJ4V/images-4.jpg",
+      "cost": 250
+    }
+  ]
+  
