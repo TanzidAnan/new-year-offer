@@ -1,6 +1,7 @@
 import { NavLink, useLoaderData } from "react-router-dom";
 import Banner from "../Banner/Banner";
 import ServiceCard from "../ServiceCard/ServiceCard";
+import FeedBack from "../FeedBack/FeedBack";
 
 const Home = () => {
     const services =useLoaderData();
@@ -14,6 +15,8 @@ const Home = () => {
                 }
             </div>
             <button className="mx-auto block text-red-200 btn btn-primary"><NavLink to='/allTreatment' >See More</NavLink></button>
+
+            <FeedBack feedback={feedback} ></FeedBack>
         </div>
     );
 };
