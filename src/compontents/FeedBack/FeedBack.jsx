@@ -5,7 +5,7 @@ const FeedBack = ({ feedback }) => {
     return (
         <div className="grid grid-cols-3 gap-3">
             {
-                feedback.map((feed, idx) => <div key={idx} className="card bg-base-100 w-96 shadow-xl">
+                feedback.map((feed, idx) => <div key={idx} className="card bg-slate-200 w-96 shadow-xl">
                     <div className="card-body">
                         <div className="flex gap-4">
                             <img src={feed.img} className="w-14 h-14 rounded-full" alt="" />
