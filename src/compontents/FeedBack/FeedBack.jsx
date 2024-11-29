@@ -3,7 +3,7 @@
 const FeedBack = ({ feedback }) => {
     console.log(feedback)
     return (
-        <div>
+        <div className="grid grid-cols-3 gap-3">
             {
                 feedback.map((feed, idx) => <div key={idx} className="card bg-base-100 w-96 shadow-xl">
                     <div className="card-body">
