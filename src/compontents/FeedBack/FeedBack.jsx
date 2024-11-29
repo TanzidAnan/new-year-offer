@@ -15,7 +15,7 @@ const FeedBack = ({ feedback }) => {
                             <p>{feed.review}</p>
 
                             <div className="card-actions justify-end items-center">
-                                <div className="rating">
+                                <div className="rating w-20">
                                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                                     <input
                                         type="radio"
