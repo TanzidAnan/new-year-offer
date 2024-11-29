@@ -18,7 +18,7 @@ const ProductDetles = () => {
                         className="rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                    <h2 className="card-title">{treatment_name}</h2>
+                    <h2 className="card-title text-3xl font-semibold">{treatment_name}</h2>
                     <p>{treatment_description}</p>
                     <div className="card-actions">
                         <button className="btn btn-primary">Buy Now</button>
