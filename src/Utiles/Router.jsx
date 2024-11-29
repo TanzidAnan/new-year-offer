@@ -4,6 +4,7 @@ import Home from "../compontents/Home/Home";
 import Profile from "../compontents/Profile/Profile";
 import AllTreatment from "../compontents/AllTreatment/AllTreatment";
 import MYApperment from "../compontents/MYApperment/MYApperment";
+import ProductDetles from "../compontents/ProductDetles/ProductDetles";
 
 const router =createBrowserRouter([
     {
@@ -35,6 +36,11 @@ const router =createBrowserRouter([
             {
                 path:'/myApperment',
                 element:<MYApperment></MYApperment>
+            },
+            {
+                path:'/product/:id',
+                element:<ProductDetles></ProductDetles>,
+                loader:() => fetch('/service.json')
             }
         ]
     }

@@ -22,7 +22,7 @@ const ServiceCard = ({ service }) => {
                     <p className="text-lg font-bold text-lime-400">Price: ${cost}</p>
                     <p title={treatment_description}>{treatment_description.slice(0, 100)} </p>
                     <div className="card-actions justify-end">
-                        <Link to={``}>
+                        <Link to={`/product/${id}`}>
                             <div className="badge badge-outline font-bold p-5 cursor-pointer bg-green-900 text-white">Chack Out More</div>
                         </Link>
                     </div>
