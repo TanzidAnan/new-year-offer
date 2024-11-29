@@ -20,8 +20,9 @@ const ProductDetles = () => {
                 <div className="card-body items-center text-center">
                     <h2 className="card-title text-3xl font-semibold">{treatment_name}</h2>
                     <p>{treatment_description}</p>
+                    <p className="text-4xl font-bold">Price: {cost} tk</p>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button className="btn bg-green-900 text-white text-lg font-bold">Buy Now</button>
                     </div>
                 </div>
             </div>
